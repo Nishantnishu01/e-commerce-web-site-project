@@ -205,13 +205,13 @@
         </div>
     </footer>
     <script>
-        // Select the main image
+
         var MainImg = document.getElementById("MainImg");
 
-        // Select all small images
+
         var smallimg = document.getElementsByClassName("small-img");
 
-        // Add click event listeners to each small image
+
         for (let i = 0; i < smallimg.length; i++) {
             smallimg[i].onclick = function () {
                 MainImg.src = smallimg[i].src;
