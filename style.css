@@ -1159,6 +1159,8 @@ footer .copyright {
         width: 50%;
     }
 
+
+
 }
 
 @media (max-width: 477px) {
@@ -1300,6 +1302,11 @@ footer .copyright {
     }
 
     #form-details form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #coupon {
         width: 100%;
         margin-bottom: 30px;
     }
